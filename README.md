@@ -31,7 +31,7 @@ nltk.download('stopwords')
 Run the script from your terminal, specifying the paths to your input files, the output file, and the language option:
 
 ```
-python lexical_mapping.py --input1 path/to/terminology1.csv --input2 path/to/terminology2.csv --output path/to/output.xlsx --language auto
+python mapping_terminologies.py  --input1 path/to/terminology1.csv --input2 path/to/terminology2.csv --output path/to/output.xlsx --language auto
 ```
 - Replace `path/to/terminology1.csv` and `path/to/terminology2.csv` with the paths to your input CSV files. 
 - Replace `path/to/output.xlsx` with the path where you want to save the output Excel file.
