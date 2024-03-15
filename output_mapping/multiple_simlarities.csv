@@ -1,0 +1,211 @@
+termino_1_labels,termino_1_codes,termino_2_labels,termino_2_codes,similarity
+insuffisance ventriculaire gauche,1,Insuffisance ventriculaire gauche,I50.1,1.0000000000000002
+insuffisance cardiaque gauche,1,Insuffisance cardiaque gauche,I50.1,1.0
+Insuffisance cardiaque,1,Insuffisance cardiaque,I50,1.0
+Insuffisance cardiaque,1,"Insuffisance cardiaque, sans précision",I50.9,1.0
+Maladies valvulaires cardiaques,1,"Maladie de plusieurs valvules, sans précision",I08.9,0.7873061473497759
+Maladies valvulaires cardiaques,1,Maladies de plusieurs valvules,I08,0.7873061473497759
+insuffisance ventriculaire droite,1,Insuffisance ventriculaire gauche,I50.1,0.7096979110899376
+insuffisance ventriculaire droite,1,Insuffisance ventriculaire droite (secondaire à une insuffisance cardiaque gauche),I50.0,0.700812392175871
+insuffisance ventriculaire gauche,1,"Insuffisance ventriculaire gauche, avec fraction d''éjection ventriculaire gauche [FEVG] non précisée",I50.19,0.6699282494354935
+insuffisance ventriculaire gauche,1,"Insuffisance ventriculaire gauche, avec fraction d''éjection ventriculaire gauche [FEVG] inférieure à 40",I50.12,0.6692983220193961
+insuffisance cardiaque gauche,1,"Insuffisance cardiaque, sans précision",I50.9,0.6602338618505064
+insuffisance cardiaque gauche,1,Insuffisance cardiaque,I50,0.6602338618505064
+Insuffisance cardiaque,1,Insuffisance cardiaque gauche,I50.1,0.6602338618505064
+cardiaque,1,Cardia,C16.0,0.6563149887047126
+cardiopathie valvulaire,1,"Cardiopathie, sans précision",I51.9,0.6497366766186505
+Insuffisance cardiaque,1,Insuffisance cardiaque ou myocardique SAI,I50.9,0.6402107636402397
+insuffisance cardiaque droite,1,"Insuffisance cardiaque, sans précision",I50.9,0.6336283248489968
+insuffisance cardiaque droite,1,Insuffisance cardiaque,I50,0.6336283248489968
+insuffisance ventriculaire gauche,1,"Insuffisance ventriculaire gauche, avec fraction d''éjection ventriculaire gauche [FEVG] supérieure ou égale à 50",I50.10,0.6324181536786821
+Maladie de la valve cardiaque,1,"Maladie de plusieurs valvules, sans précision",I08.9,0.6198665870908469
+Maladie de la valve cardiaque,1,Maladies de plusieurs valvules,I08,0.6198665870908469
+insuffisance ventriculaire gauche,1,Insuffisance ventriculaire droite (secondaire à une insuffisance cardiaque gauche),I50.0,0.60124711809667
+insuffisance cardiaque globale,1,"Insuffisance cardiaque, sans précision",I50.9,0.5773477686626176
+insuffisance cardiaque globale,1,Insuffisance cardiaque,I50,0.5773477686626176
+insuffisance cardiaque globale,1,"Insuffisance cardiaque, sans précision",I50.9,0.5773477686626176
+insuffisance cardiaque globale,1,Insuffisance cardiaque,I50,0.5773477686626176
+insuffisance ventriculaire gauche,1,"Insuffisance ventriculaire gauche, avec fraction d''éjection ventriculaire gauche [FEVG] inférieure à 50 et supérieure ou égale à 40",I50.11,0.5666549659141108
+cardiaque,1,"Insuffisance cardiaque, sans précision",I50.9,0.556203687743587
+défaillance cardiaque,1,Défaillance cardiaque après chirurgie cardiaque ou due à la présence d'une prothèse cardiaque,I97.1,0.5357950828701911
+Insuffisance cardiaque,1,Insuffisance cardiaque congestive,I50.0,0.5101214568800017
+Maladies valvulaires cardiaques,1,Autres maladies valvulaires multiples,I08.8,0.4961372387436954
+insuffisance cardiaque gauche,1,Insuffisance ventriculaire droite (secondaire à une insuffisance cardiaque gauche),I50.0,0.48587070812225835
+Maladies valvulaires cardiaques,1,"Maladie de la valvule mitrale, sans précision",I05.9,0.4812313474587274
+Maladies valvulaires cardiaques,1,Autres maladies de la valvule mitrale,I05.8,0.4812313474587274
+insuffisance cardiaque globale,1,Insuffisance cardiaque gauche,I50.1,0.46868141297445903
+insuffisance cardiaque globale,1,Insuffisance cardiaque gauche,I50.1,0.46868141297445903
+Défaillance cardiaque droite,1,Défaillance cardiaque après chirurgie cardiaque ou due à la présence d'une prothèse cardiaque,I97.1,0.461290744618416
+défaillance cardiaque,1,défibrillateur cardiaque,Z95.0,0.45999908535118894
+Insuffisance cardiaque,1,du poumon avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.4511684497071365
+Insuffisance cardiaque,1,Insuffisance cardiaque hypertensive,I11.0,0.43370610403012355
+Insuffisance cardiaque,1,pulmonaire avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.43230981169883814
+insuffisance cardiaque gauche,1,Insuffisance cardiaque ou myocardique SAI,I50.9,0.42268882487645726
+Insuffisance cardiaque,1,Insuffisance cardiaque après chirurgie cardiaque ou due à la présence d'une prothèse cardiaque,I97.1,0.4221139053781645
+Maladies valvulaires cardiaques,1,"Maladie de la valvule tricuspide, sans précision",I07.9,0.4208463197865908
+Maladies valvulaires cardiaques,1,Autres maladies de la valvule tricuspide,I07.8,0.4208463197865908
+insuffisance cardiaque droite,1,Insuffisance cardiaque gauche,I50.1,0.4183428758929202
+Maladies valvulaires cardiaques,1,Fuite dû (due) à une prothèse valvulaire cardiaque,T82.0,0.41275492776285855
+cardiaque,1,Insuffisance cardiaque après chirurgie cardiaque ou due à la présence d'une prothèse cardiaque,I97.1,0.4119129275611738
+insuffisance cardiaque droite,1,Insuffisance cardiaque ou myocardique SAI,I50.9,0.40565567371566214
+Maladies valvulaires cardiaques,1,Malposition dû (due) à une prothèse valvulaire cardiaque,T82.0,0.39871882002800707
+Insuffisance cardiaque,1,Insuffisance cardiaque du nouveau-né,P29.0,0.3964078096229424
+Défaillance cardiaque droite,1,défibrillateur cardiaque,Z95.0,0.3960344680073317
+Insuffisance cardiaque,1,Insuffisance ventriculaire droite (secondaire à une insuffisance cardiaque gauche),I50.0,0.39571934311047363
+insuffisance ventriculaire gauche,1,"Insuffisance cardiaque congestive, avec fraction d''éjection ventriculaire gauche [FEVG] non précisée",I50.09,0.3879032938423718
+insuffisance cardiaque droite,1,Insuffisance ventriculaire droite (secondaire à une insuffisance cardiaque gauche),I50.0,0.3842501215491246
+cardiaque,1,du poumon avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.38330339752596976
+Maladies valvulaires cardiaques,1,Perforation dû (due) à une prothèse valvulaire cardiaque,T82.0,0.38053607796176087
+cardiaque,1,Défaillance cardiaque après chirurgie cardiaque ou due à la présence d'une prothèse cardiaque,I97.1,0.37789150581925096
+Maladies valvulaires cardiaques,1,Déplacement dû (due) à une prothèse valvulaire cardiaque,T82.0,0.376251879186065
+Maladies valvulaires cardiaques,1,Endocardite et atteintes valvulaires cardiaques au cours de maladies classées ailleurs,I39,0.36963452681635445
+insuffisance cardiaque globale,1,Insuffisance cardiaque ou myocardique SAI,I50.9,0.36962425586148284
+insuffisance cardiaque globale,1,Insuffisance cardiaque ou myocardique SAI,I50.9,0.36962425586148284
+cardiaque,1,pulmonaire avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.3672814881349532
+Insuffisance cardiaque,1,Insuffisance cardiaque rhumatismale,I09.9,0.35513793384340364
+insuffisance cardiaque droite,1,du poumon avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.349400572773691
+insuffisance cardiaque gauche,1,Insuffisance ventriculaire gauche,I50.1,0.34634255216102405
+insuffisance ventriculaire gauche,1,Insuffisance cardiaque gauche,I50.1,0.34634255216102405
+insuffisance cardiaque gauche,1,Insuffisance cardiaque congestive,I50.0,0.3367994594886901
+insuffisance cardiaque droite,1,pulmonaire avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.3347957861887506
+Insuffisance cardiaque,1,"Cardiopathie hypertensive, sans insuffisance cardiaque (congestive)",I11.9,0.3304227680033096
+Insuffisance cardiaque,1,"Cardiopathie hypertensive, avec insuffisance cardiaque (congestive)",I11.0,0.3304227680033096
+Insuffisance cardiaque,1,Insuffisance coronaire,I24.8,0.32908523938658113
+affections valvulaires cardiaques,1,Fuite dû (due) à une prothèse valvulaire cardiaque,T82.0,0.32752491864640804
+insuffisance cardiaque droite,1,Insuffisance cardiaque congestive,I50.0,0.32322740419240525
+Trouble valvulaire cardiaque,1,Fuite dû (due) à une prothèse valvulaire cardiaque,T82.0,0.3173115151466216
+insuffisance cardiaque gauche,1,Insuffisance cardiaque après chirurgie cardiaque ou due à la présence d'une prothèse cardiaque,I97.1,0.3156515712881849
+Valvulopathies,1,"Maladie de plusieurs valvules, sans précision",I08.9,0.30203625292528113
+Valvulopathies,1,Maladies de plusieurs valvules,I08,0.30203625292528113
+affections valvulaires cardiaques,1,Perforation dû (due) à une prothèse valvulaire cardiaque,T82.0,0.3019589581933615
+affections valvulaires cardiaques,1,Déplacement dû (due) à une prothèse valvulaire cardiaque,T82.0,0.29855940615632076
+cardiaque,1,Bloc (du) cardiaque complet SAI,I44.2,0.29790444263252086
+cardiaque,1,Bloc cardiaque SAI,I45.9,0.29790444263252086
+insuffisance cardiaque gauche,1,du poumon avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.29787668789524857
+insuffisance cardiaque globale,1,Insuffisance cardiaque congestive,I50.0,0.29451748487659263
+insuffisance cardiaque globale,1,Insuffisance cardiaque congestive,I50.0,0.29451748487659263
+Trouble valvulaire cardiaque,1,Perforation dû (due) à une prothèse valvulaire cardiaque,T82.0,0.29254279317865167
+Trouble valvulaire cardiaque,1,Déplacement dû (due) à une prothèse valvulaire cardiaque,T82.0,0.28924925138601104
+affections valvulaires cardiaques,1,Malposition dû (due) à une prothèse valvulaire cardiaque,T82.0,0.2888505584973113
+insuffisance cardiaque gauche,1,Insuffisance cardiaque hypertensive,I11.0,0.28634745597194594
+insuffisance cardiaque gauche,1,pulmonaire avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.2854255764937891
+cardiaque,1,Dilatation cardiaque,I51.7,0.28117982095501864
+Insuffisance cardiaque,1,Insuffisance cardiaque dû (due) à une anesthésie au cours de la grossesse,O29.1,0.28113556568071996
+Insuffisance cardiaque,1,"Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive)",I13.0,0.280492655082632
+Trouble valvulaire cardiaque,1,Malposition dû (due) à une prothèse valvulaire cardiaque,T82.0,0.27984316047317287
+affections valvulaires cardiaques,1,Endocardite et atteintes valvulaires cardiaques au cours de maladies classées ailleurs,I39,0.2796828724589479
+insuffisance cardiaque droite,1,Insuffisance cardiaque hypertensive,I11.0,0.27480847217339194
+cardiaque,1,Autres bruits cardiaques,R01.2,0.27313939307859647
+cardiaque,1,Bruit cardiaque SAI,R01.1,0.27313939307859647
+insuffisance cardiaque droite,1,Insuffisance cardiaque après chirurgie cardiaque ou due à la présence d'une prothèse cardiaque,I97.1,0.2674633267602343
+cardiaque,1,Arrêt cardiaque,I46,0.26466347239659477
+cardiaque,1,"Arrêt cardiaque, sans précision",I46.9,0.26466347239659477
+insuffisance cardiaque globale,1,Insuffisance ventriculaire droite (secondaire à une insuffisance cardiaque gauche),I50.0,0.26330618064081485
+insuffisance cardiaque globale,1,Insuffisance ventriculaire droite (secondaire à une insuffisance cardiaque gauche),I50.0,0.26330618064081485
+insuffisance cardiaque gauche,1,Insuffisance cardiaque du nouveau-né,P29.0,0.2617218590150555
+insuffisance cardiaque globale,1,du poumon avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.2604810977293876
+insuffisance cardiaque globale,1,du poumon avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.2604810977293876
+cardiaque,1,Névrose cardiaque,F45.30,0.2557418066035231
+insuffisance cardiaque droite,1,Insuffisance cardiaque du nouveau-né,P29.0,0.25117521636844503
+insuffisance cardiaque globale,1,Insuffisance cardiaque hypertensive,I11.0,0.25039925141714897
+insuffisance cardiaque globale,1,Insuffisance cardiaque hypertensive,I11.0,0.25039925141714897
+insuffisance cardiaque globale,1,pulmonaire avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.24959310515528055
+insuffisance cardiaque globale,1,pulmonaire avec mention de maladie cardiaque SAI ou d'insuffisance cardiaque,I50.1,0.24959310515528055
+cardiaque,1,Amylose cardiaque,I43.1,0.2477542111043424
+Insuffisance cardiaque,1,"Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive) et rénale",I13.2,0.24598022775206743
+insuffisance cardiaque globale,1,Insuffisance cardiaque après chirurgie cardiaque ou due à la présence d'une prothèse cardiaque,I97.1,0.24370652139154664
+insuffisance cardiaque globale,1,Insuffisance cardiaque après chirurgie cardiaque ou due à la présence d'une prothèse cardiaque,I97.1,0.24370652139154664
+Insuffisance cardiaque,1,Insuffisance cardiorespiratoire,R09.2,0.2436160639409254
+cardiaque,1,Cathétérisme cardiaque,Y84.0,0.24306290738241446
+Insuffisance cardiaque,1,Insuffisance cardiaque dû (due) à une anesthésie au cours de la puerpéralité,O89.1,0.2430415953112535
+cardiaque,1,Plexus cardiaque,S24.4,0.24154286172755526
+cardiaque,1,stimulateur cardiaque,Z95.0,0.2390795688870503
+insuffisance cardiaque gauche,1,Insuffisance cardiaque rhumatismale,I09.9,0.23447408955104
+cardiaque,1,Asthme cardiaque,I50.1,0.23339056992586665
+insuffisance cardiaque droite,1,Insuffisance cardiaque dû (due) à une anesthésie au cours de la grossesse,O29.1,0.2299675209770082
+insuffisance cardiaque globale,1,Insuffisance cardiaque du nouveau-né,P29.0,0.2288651643662415
+insuffisance cardiaque globale,1,Insuffisance cardiaque du nouveau-né,P29.0,0.2288651643662415
+cardiaque,1,Communication (cardiaque) SAI,Q21.9,0.22727210589276542
+insuffisance cardiaque droite,1,Insuffisance cardiaque rhumatismale,I09.9,0.2250254541115297
+Trouble valvulaire cardiaque,1,Endocardite et atteintes valvulaires cardiaques au cours de maladies classées ailleurs,I39,0.22031147403979667
+insuffisance cardiaque gauche,1,"Cardiopathie hypertensive, sans insuffisance cardiaque (congestive)",I11.9,0.218156300162159
+insuffisance cardiaque gauche,1,"Cardiopathie hypertensive, avec insuffisance cardiaque (congestive)",I11.0,0.218156300162159
+insuffisance cardiaque droite,1,"Cardiopathie hypertensive, sans insuffisance cardiaque (congestive)",I11.9,0.2093652249819058
+insuffisance cardiaque droite,1,"Cardiopathie hypertensive, avec insuffisance cardiaque (congestive)",I11.0,0.2093652249819058
+insuffisance cardiaque globale,1,Insuffisance cardiaque rhumatismale,I09.9,0.20503809367194142
+insuffisance cardiaque globale,1,Insuffisance cardiaque rhumatismale,I09.9,0.20503809367194142
+insuffisance cardiaque droite,1,Insuffisance cardiaque dû (due) à une anesthésie au cours de la puerpéralité,O89.1,0.19880683908737926
+insuffisance cardiaque droite,1,"Cardionéphropathie hypertensive, avec insuffisance cardiaque (congestive)",I13.0,0.17772809117245558
+athérome,2,athérome,I70,1.0
+Angine poitrine,2,Angine de poitrine SAI,I20.9,0.9999999999999999
+Angine poitrine,2,"Angine de poitrine, sans précision",I20.9,0.9999999999999999
+Angine poitrine,2,Angine de poitrine,I20,0.9999999999999999
+angine de poitrine,2,Angine de poitrine SAI,I20.9,0.9999999999999999
+angine de poitrine,2,"Angine de poitrine, sans précision",I20.9,0.9999999999999999
+angine de poitrine,2,Angine de poitrine,I20,0.9999999999999999
+infarctus myocardique aigu,2,Infarctus du myocarde (aigu) SAI,I21.9,0.9999999999999999
+maladie des artères coronaires,2,Maladie des (artères) coronaires,I25.1,0.9999999999999998
+infarctus du myocarde,2,Infarctus du myocarde (aigu) SAI,I21.9,0.8019873845061608
+Angine poitrine,2,Angine de poitrine cardiaque,I20.9,0.7406878620641077
+angine de poitrine,2,Angine de poitrine cardiaque,I20.9,0.7406878620641077
+Angine poitrine,2,Angine de poitrine (de) due à un spasme,I20.1,0.6780064869446063
+angine de poitrine,2,Angine de poitrine (de) due à un spasme,I20.1,0.6780064869446063
+infarctus du myocarde,2,Infarctus du myocarde à répétition,I22,0.6555620107192642
+maladie coronarienne,2,Maladie de Cori,E74.0,0.654472624855091
+infarctus du myocarde,2,Infarctus du myocarde guéri,I25.2,0.6263650454040015
+Angine poitrine,2,Autres formes d'angine de poitrine,I20.8,0.6112738987894182
+angine de poitrine,2,Autres formes d'angine de poitrine,I20.8,0.6112738987894182
+maladie des artères coronaires,2,Athérome des (artères) coronaires,I25.1,0.6058099732398607
+infarctus myocardique aigu,2,"Infarctus aigu du myocarde, sans précision",I21.9,0.5946295400007526
+infarctus myocardique aigu,2,Infarctus aigu du myocarde,I21,0.5946295400007526
+Angine poitrine,2,Angine de poitrine (de) Prinzmetal,I20.1,0.5872078477485347
+angine de poitrine,2,Angine de poitrine (de) Prinzmetal,I20.1,0.5872078477485347
+Angine poitrine,2,Angine de poitrine (de) angiospastique,I20.1,0.5843963986109879
+angine de poitrine,2,Angine de poitrine (de) angiospastique,I20.1,0.5843963986109879
+infarctus du myocarde,2,"Infarctus du myocarde, ancien",I25.2,0.5812339271779406
+Angine poitrine,2,Angine de poitrine instable,I20.0,0.579479091994822
+angine de poitrine,2,Angine de poitrine instable,I20.0,0.579479091994822
+infarctus du myocarde,2,infarctus du myocarde extensif,I22,0.575404555948885
+infarctus du myocarde,2,Infarctus aigu du myocarde,I21,0.563989845321964
+infarctus du myocarde,2,"Infarctus aigu du myocarde, sans précision",I21.9,0.563989845321964
+infarctus du myocarde,2,infarctus du myocarde récidivant,I22,0.5637194702339403
+maladie des artères coronaires,2,Sclérose des (artères) coronaires,I25.1,0.5553440159955955
+Angine poitrine,2,Angine de poitrine (de) variable,I20.1,0.5477762135944451
+angine de poitrine,2,Angine de poitrine (de) variable,I20.1,0.5477762135944451
+infarctus myocardique aigu,2,Infarctus sousendocardique aigu du myocarde,I21.4,0.540595664028509
+infarctus myocardique aigu,2,"Infarctus du myocarde, ancien",I25.2,0.5381103666390208
+infarctus myocardique aigu,2,Infarctus du myocarde à répétition,I22,0.5257524623583424
+athérome,2,Athérome des (artères) coronaires,I25.1,0.5179544085732023
+infarctus myocardique aigu,2,"Infarctus sousendocardique aigu du myocarde - \ Prise en charge initiale, infarctus de 24 heures ou moins \",I21.400,0.5057971259169954
+infarctus myocardique aigu,2,Infarctus du myocarde guéri,I25.2,0.5023368645096378
+athérome,2,Athérosclérose,I70,0.49660059558101755
+coronarien,2,Péricoronarite aigüe,K05.2,0.4832417216279874
+infarctus myocardique aigu,2,Infarctus sousendocardique aigu du myocarde - \ Autres prises en charge \,I21.48,0.47319592241316216
+infarctus myocardique aigu,2,Infarctus sousendocardique aigu du myocarde - \ Prise en charge initiale \,I21.40,0.4688236070866929
+infarctus myocardique aigu,2,infarctus du myocarde extensif,I22,0.4614671948583751
+coronarien,2,"Vasodilatateurs coronariens, non classés ailleurs",Y52.3,0.45905096609955104
+coronarien,2,"Vasodilatateurs coronariens, non classés ailleurs",T46.3,0.45905096609955104
+infarctus du myocarde,2,"Infarctus du myocarde à répétition, d''autres localisations - \ Prise en charge initiale, infarctus de 24 heures ou moins \",I22.800,0.4573420569364467
+infarctus myocardique aigu,2,"Infarctus aigu du myocarde, sans précision - \ Autres prises en charge \",I21.98,0.4562724825894344
+infarctus du myocarde,2,Syndrome postinfarctus du myocarde,I24.1,0.4537581304028927
+infarctus du myocarde,2,"Infarctus du myocarde à répétition, de la paroi inférieure - \ Prise en charge initiale, infarctus de 24 heures ou moins \",I22.100,0.45318862647361025
+infarctus myocardique aigu,2,infarctus du myocarde récidivant,I22,0.45209590352811646
+infarctus myocardique aigu,2,"Infarctus aigu du myocarde, sans précision - \ Prise en charge initiale \",I21.90,0.44893445688299133
+infarctus myocardique aigu,2,"Infarctus du myocarde, à répétition (aigu) septal SAI",I22.8,0.4359977661585665
+infarctus du myocarde,2,"Infarctus du myocarde à répétition, d''autres localisations",I22.8,0.4339552087395543
+coronarien,2,Péricoronarite chronique,K05.3,0.43279414914423736
+infarctus du myocarde,2,"Infarctus du myocarde à répétition, de la paroi antérieure - \ Prise en charge initiale, infarctus de 24 heures ou moins \",I22.000,0.4321812228750732
+infarctus du myocarde,2,"Infarctus du myocarde, à répétition (aigu) septal SAI",I22.8,0.43178823940920946
+infarctus du myocarde,2,"Infarctus du myocarde à répétition, de localisation non précisée - \ Prise en charge initiale, infarctus de 24 heures ou moins \",I22.900,0.4308789648041278
+Angine poitrine,2,Angine de poitrine avec spasme coronaire vérifié,I20.1,0.42836079549119954
+angine de poitrine,2,Angine de poitrine avec spasme coronaire vérifié,I20.1,0.42836079549119954
+infarctus du myocarde,2,"Infarctus du myocarde à répétition, de la paroi inférieure",I22.1,0.42400867156675337
+infarctus myocardique aigu,2,"Infarctus du myocarde, à répétition (aigu) latéral (paroi) SAI",I22.8,0.39391228557756364
+infarctus myocardique aigu,2,"Infarctus du myocarde, à répétition (aigu) latérobasal",I22.8,0.3913300894994211
+infarctus du myocarde,2,"Infarctus du myocarde à répétition, de la paroi antérieure",I22.0,0.38973546065407816
+infarctus myocardique aigu,2,"Infarctus du myocarde, à répétition (aigu) latéral haut",I22.8,0.3894915964781664
+infarctus du myocarde,2,"Infarctus du myocarde à répétition, de localisation non précisée",I22.9,0.38832529513929054
+infarctus du myocarde,2,"Infarctus du myocarde à répétition, d''autres localisations - \ Autres prises en charge \",I22.88,0.3863929743785288
+infarctus myocardique aigu,2,Syndrome postinfarctus du myocarde,I24.1,0.3639082962002214
+infarctus myocardique aigu,2,"Infarctus du myocarde, à répétition (aigu) postérolatéral",I22.8,0.34836016957430066
+infarctus du myocarde,2,Thrombose coronaire n'entraînant pas un infarctus du myocarde,I24.0,0.3403453112785694

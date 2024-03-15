@@ -51,8 +51,7 @@ def preprocess_dataframe(df, column_name, stemmer, lemmatizer, stopwords):
     """
     return df[column_name].apply(lambda x: preprocess_text(x, stemmer, lemmatizer, stopwords))
 
-def run_lexical_mapping(input_termino1_path, input_termino2_path, output_path, language='auto', match_most_s=True,
-                        match_s=True):
+def run_lexical_mapping(input_termino1_path, input_termino2_path, output_path, language='auto', most_similar=True):
     try:
         df_termino1 = pd.read_csv(input_termino1_path, delimiter=",",na_values='')
         df_termino2 = pd.read_csv(input_termino2_path, delimiter=",",na_values='')
@@ -82,100 +81,64 @@ def run_lexical_mapping(input_termino1_path, input_termino2_path, output_path, l
     labels_t2  = pd.Series(df_termino2['label'].values)
     code_t2 = pd.Series(df_termino2['code'].values)
 
-
-    master_id = pd.Series([i for i in range(len(labels_t2))])
-    duplicates_id = pd.Series([i for i in range(len(labels_t1))])
-
-    if match_most_s:
-        alignement_matching_most_similar = match_most_similar(proc_label2_t,
-                                                              proc_label1_t,master_id,duplicates_id,
-                                     ngram_size=3, min_similarity=0.5)
-
-        #print(alignement_matching_most_similar)
-
-        alignement_matching_most_similar= alignement_matching_most_similar.replace(np.nan, '', regex=True)
-        alignement_matching_most_similar.loc[alignement_matching_most_similar.most_similar_index == "", 'most_similar_master'] = ""
-
-
-        labels_org_t2 = []
-        id_t2 = []
-        for ind in alignement_matching_most_similar['most_similar_index']:
-            if ind != "" :
-                labels_org_t2.append(labels_t2[int(ind)])
-                id_t2.append(code_t2[int(ind)])
-            else:
-                labels_org_t2.append("")
-                id_t2.append("")
-
-        alignement_matching_most_similar["termino_1_codes"] = code_t1
-        alignement_matching_most_similar["termino_1_labels"] = labels_t1
-        alignement_matching_most_similar["termino_2_labels"] = labels_org_t2
-        alignement_matching_most_similar["termino_2_codes"] = id_t2
-
-        #print(alignement_matching_most_similar)
-
-        cosine = compute_pairwise_similarities(proc_label1_t,
-                                               alignement_matching_most_similar['most_similar_master'])
-
-        alignement_matching_most_similar.drop('most_similar_master_id', inplace=True, axis=1)
-        alignement_matching_most_similar.drop('most_similar_index', inplace=True, axis=1)
-
-
-        alignement_matching_most_similar = alignement_matching_most_similar[['termino_1_codes',
-                                           'termino_1_labels',
-                                          'termino_2_codes',
-                                            'termino_2_labels']]
-        alignement_matching_most_similar['similarity'] = cosine
-
-        alignement_matching_most_similar.to_excel(f'{output_path}_most_similar.xlsx')
-
-    if match_s:
-        alignement_matching_multiple_similar = match_strings(df_termino1['proc_labels_t1'],
-                                                              df_termino2['proc_labels_t2'],
+    #compute string similarity
+    alignement_matching_multiple_similar = match_strings(df_termino1['proc_labels_t1'],
+                                                         df_termino2['proc_labels_t2'],
                                                          max_n_matches=20, min_similarity=0.5)
 
-        labels_org_t1 = []
-        id_t1 = []
-        labels_org_t2 = []
-        id_t2 = []
 
-        for ind in alignement_matching_multiple_similar['left_index']:
-            if ind != "":
-                labels_org_t1.append(labels_t1[ind])
-                id_t1.append(code_t1[ind])
-            else:
-                labels_org_t1.append("")
-                id_t1.append("")
+    #get Index
+    labels_org_t1 = []
+    id_t1 = []
+    labels_org_t2 = []
+    id_t2 = []
 
+    for ind in alignement_matching_multiple_similar['left_index']:
+        if ind != "":
+            labels_org_t1.append(labels_t1[ind])
+            id_t1.append(code_t1[ind])
+        else:
+            labels_org_t1.append("")
+            id_t1.append("")
 
+    for ind in alignement_matching_multiple_similar['right_index']:
+        if ind != "":
+            labels_org_t2.append(labels_t2[ind])
+            id_t2.append(code_t2[ind])
+        else:
+            labels_org_t2.append("")
+            id_t2.append("")
 
-        for ind in alignement_matching_multiple_similar['right_index']:
-            if ind != "":
-                labels_org_t2.append(labels_t2[ind])
-                id_t2.append(code_t2[ind])
-            else:
-                labels_org_t2.append("")
-                id_t2.append("")
+    #extract Labels/codes
 
+    alignement_matching_multiple_similar["termino_1_codes"] = id_t1
+    alignement_matching_multiple_similar["termino_1_labels"] = labels_org_t1
+    alignement_matching_multiple_similar["termino_2_labels"] = labels_org_t2
+    alignement_matching_multiple_similar["termino_2_codes"] = id_t2
 
-        alignement_matching_multiple_similar["termino_1_codes"] = id_t1
-        alignement_matching_multiple_similar["termino_1_labels"] = labels_org_t1
-        alignement_matching_multiple_similar["termino_2_labels"] = labels_org_t2
-        alignement_matching_multiple_similar["termino_2_codes"] = id_t2
-
-        cosine = compute_pairwise_similarities(alignement_matching_multiple_similar['left_proc_labels_t1'],
-                                               alignement_matching_multiple_similar['right_proc_labels_t2'])
-
-        alignement_matching_multiple_similar['similarity'] = cosine
-
-        alignement_matching_multiple_similar = alignement_matching_multiple_similar[['termino_1_codes',
-                                                                           'termino_1_labels',
-                                                                             'termino_2_codes',
-                                                                             'termino_2_labels',"similarity"]]
-
-        alignement_matching_multiple_similar.to_excel(f'{output_path}_multiple_similar.xlsx')
-
-    # Similarity matching and results post-processing as before
+    ##compute cosin similarity
+    similarities = compute_pairwise_similarities(alignement_matching_multiple_similar['left_proc_labels_t1'],
+                                                 alignement_matching_multiple_similar['right_proc_labels_t2'])
+    alignement_matching_multiple_similar['similarity'] = similarities
+    alignement_matching_multiple_similar_sorted \
+        = alignement_matching_multiple_similar.sort_values(by=['termino_1_codes', 'similarity'],
+                                                           ascending=[True, False])
+    df_final_similarity_multiple = alignement_matching_multiple_similar_sorted[['termino_1_labels',
+                                                                       'termino_1_codes',
+                                                                       'termino_2_labels',
+                                                                       'termino_2_codes', 'similarity']]
+    df_final_similarity_multiple.index.name = 'Id'
+    print(df_final_similarity_multiple.head())
+    df_final_similarity_multiple.to_csv("output_mapping/multiple_simlarities.csv", index=False)
+    
+    if most_similar:
+        alignement_matching_most_similar = alignement_matching_multiple_similar_sorted\
+            .drop_duplicates(subset=['termino_1_codes'])
+        df_final_similarity_most= alignement_matching_most_similar[['termino_1_labels',
+                                                                       'termino_1_codes',
+                                                                       'termino_2_labels',
+                                                                       'termino_2_codes', 'similarity']]
+        df_final_similarity_most.to_csv("output_mapping/most_similar.csv", index=False)
 
 if __name__ == "__main__":
 
